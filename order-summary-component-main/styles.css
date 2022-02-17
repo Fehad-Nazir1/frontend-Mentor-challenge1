@@ -1,0 +1,111 @@
+body{
+  padding: 0;
+  margin: 0;
+  background-image: url("images/bg.png");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+
+
+.container{
+  font-family: 'Red Hat Display', sans-serif;
+  text-align: center;
+  width: 25%;
+  margin:  auto;
+  margin-top: 7rem;
+  background-color: white;
+  border-radius: 12px;
+}
+
+.mid{
+  padding: 2rem;
+  padding-top: 1.3px;
+}
+/*
+.bc-img{
+  position: fixed;
+  width: 100%;
+  z-index: -1;
+} */
+
+.music-img{
+  width : 100%;
+  border-top-left-radius: 12px;
+  border-top-right-radius: 12px;
+}
+
+.top-head{
+  font-weight: 900;
+  color: hsl(223, 47%, 23%);
+}
+.top-para{
+  font-weight: 400;
+  color: hsl(224, 23%, 55%);
+  font-size: 14px;
+}
+
+.btn-blu{
+  width: 98%;
+  padding: 0.8rem;
+  border-radius: 12px;
+  border: none;
+  background-color: hsl(245, 75%, 52%);
+  color: #FFF;
+  font-weight: 700;
+  margin: 0.5rem auto;
+}
+
+.btn-grey{
+  width: 98%;
+  padding: 0.8rem;
+  border-radius: 12px;
+  border: none;
+  background-color: hsl(225, 100%, 94%);
+  color: hsl(224, 23%, 55%);
+  font-weight: 700;
+  margin: 0.5rem auto;
+}
+
+.music-icon {
+  float: left;
+  margin-right: 12px;
+}
+
+.mid-mid-l{
+  text-align: left;
+  font-size: 14px;
+  width: 50%;
+  position: relative;
+  line-height: 17px;
+  margin-left: 20px;
+}
+
+.mid-mid-r{
+  text-align: right;
+  font-size: 14px;
+  width: 50%;
+  display: inline-block;
+  position: absolute;
+  bottom : 20px;
+  right: 20px;
+  color: blue;
+  text-decoration: underline;
+}
+
+.mml-head{
+  font-weight: 900;
+}
+
+.mml-para{
+  font-weight: 500;
+  color: ;
+}
+
+.mid-mid{
+  position: relative;
+  border-radius: 12px;
+  background-color: hsl(225, 100%, 98%);
+  padding: 5px 0px;
+}
